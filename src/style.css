@@ -1,0 +1,80 @@
+:root {
+  --background: lightblue;
+}
+
+html, body, #container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background);
+}
+
+#drum-machine {
+  background-color: grey;
+  border: 4px solid grey;
+  border-radius: 8px;
+  box-shadow: 8px 8px 8px black;
+  margin: 10% auto auto;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  column-gap: 20px;
+}
+
+#pad-grid {
+  padding: 1px;
+  width: 400px;
+  height: 200px;
+  border-spacing: 10px;
+}
+
+.pad-row {
+  margin-bottom: 50px;
+}
+
+.drum-pad {
+  background-color: darkgrey;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+  height: 40px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+}
+
+#title {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#display {
+  background-color: green;
+  border: 1px solid darkgreen;
+  color: black;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: auto;
+}
+
+#volume-section {
+  text-align: center;
+  display: inline-block;
+  font-family: sans-serif;
+  color: white;
+  margin: 40px auto auto 25px;
+  width: 320px;
+}
+
+#volume-slider {
+  width: 150px;
+  margin-left: 25px;
+}
